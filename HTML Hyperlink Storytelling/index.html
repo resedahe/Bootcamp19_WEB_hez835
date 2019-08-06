@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tarot of the Day</title>
+	 <meta charset="utf-8">
+  	 <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script></head>
+     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css"/>
+     <link rel = "stylesheet" type = "text/css" href = "css/tarotStyle.css" />
+     <script src = "js/tarot.js"></script>
+</head>
+
+<body>
+   
+<div class="container" >
+   <h2> Welcome to Tarot reading, focuse on your question <br> and shuffle the card...</h2>
+
+	<div class = "row1">
+   		<button id="shuffle"> Shuffle </button>
+	</div>
+
+    <div class = "row2">
+
+   		<h4> Past </h4>
+   		<h4> Present </h4>
+   		<h4> Future </h4>
+   	
+	</div>
+
+	<div class = "row3">
+	    <div class = "column" id="col1">
+   			<img onclick = "showNewCard(this.id)" id = "past" src = "images/deckback2.jpg"> 
+          <p id = "p1" ></p>
+    	</div>
+    	<div class = "column" id="col2">
+            
+   			<img onclick = "showNewCard(this.id)" id = "present" src = "images/deckback2.jpg"> 
+       	<p id = "p2"></p>
+    	</div>
+    	<div class = "column" id="col3">
+    		
+   			<img onclick = "showNewCard(this.id)" id = "future" src = "images/deckback2.jpg"> 
+          <p id = "p3"></p>
+   			
+    	</div>
+   		
+	</div>
+
+</div>
+
+
+
+</body>
+
+</html>
