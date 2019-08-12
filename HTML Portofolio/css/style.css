@@ -5,11 +5,33 @@ p{
    margin-left: 30%;
 }
 
+.col1{
+    float: left;
+   
+    display: inline-block;
+}
+
+.nav{
+   display: inline-block;
+}
+
+.tab-content{
+   
+   margin-top: 50px;
+
+}
+
+.tab-pane{
+   display: inline-block;
+   padding-left: 150px;
+
+}
+
 
 
 .nav nav-pills{
     color: #d3f5df;
-    background-color: #d3f5df;
+    background-color: #d3f5df;*/
    }
 
    .main-timeline12 .timeline{
