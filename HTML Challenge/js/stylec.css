@@ -1,0 +1,26 @@
+body{
+
+	text-align: center;
+}
+
+p{
+
+	color: blue;
+	font-weight: bold;
+}
+
+
+
+img{
+	padding-top: 100px;
+	width: 20px;
+	height: 10px;
+}
+
+
+
+
+.pic:hover img{
+	opacity: 0.7;
+}
+

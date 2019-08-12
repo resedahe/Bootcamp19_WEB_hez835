@@ -1,0 +1,52 @@
+
+img {
+
+	width: 800px;
+     animation-name: example;
+
+    animation-fill-mode: forwards;
+   transition-duration: 2 s;
+
+	
+}
+
+img:hover {
+	opacity: 0.6;
+	transform: rotateZ(180deg);
+	border-radius:80%;
+	animation-iteration-count: 10;
+    animation: swing 1s ease;
+
+}
+
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a.effect-shine:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+.container{
+	text-align: center;
+	float:left;
+	width: 94%;
+	height: 700px;
+    border: 50px solid black;
+	background: white;
+	transition: width 2s height 4s;
+	transition-duration: 3s;
+	transition-timing-function: ease-in-out;
+     animation-name: example;
+
+}
+
+
+/*@keyframes example {
+  from {top: 0px;}
+  to {top: 400px; }*/
+
