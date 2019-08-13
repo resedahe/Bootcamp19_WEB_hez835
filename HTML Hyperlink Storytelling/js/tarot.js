@@ -1,6 +1,7 @@
 
 /* shuffle the card with animation effect and reset if needed */
 $(document).ready(function(){
+$('[data-toggle="tooltip"]').tooltip();
 $('#shuffle').click(function(){
 	$('#past').toggleClass('shuffleActive');
     $('#present').toggleClass('shuffleActive');

@@ -2,6 +2,23 @@ body{
     background-image: url('../images/backGround/starNight.jpeg');
 }
 
+.tooltip-inner {
+    max-width: 350px;
+    /* If max-width does not work, try using width instead */
+    width: 350px; 
+    text-align: left;
+}
+
+a{
+  color: white;
+   text-decoration: none;
+}
+
+a:hover{
+   color: #ced5db;
+   text-decoration: none;
+
+}
 
 .row1{
     padding-top: 40px;
@@ -82,10 +99,22 @@ p{
 }
 
 .shuffleActive{
-    animation-name: flipInY;
+    animation-name:  flipInY, rotateY;
+    animation-duration: 1s, 1s; 
+    animation-iteration-count: 1, 2;
+    animation-timing-function: ease-in;
+   /* animation-name: flipInY;
     animation-timing-function: ease-in;
     animation-duration: 1s;
     animation-direction: alternate-reverse;
-    animation-iteration-count: 2;
-    
+    animation-iteration-count: 2;*/  
+}
+
+@keyframes rotateY {
+   0% { transform: rotateY( 60deg); }
+  20% { transform: rotateY( 120deg); }
+  40% { transform: rotateY( 180deg); }
+  60% { transform: rotateY( 240deg); }
+  80% { transform: rotateY( 300deg); }
+  100% { transform: rotateY( 360deg); }
 }
